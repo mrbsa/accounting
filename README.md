@@ -1,0 +1,2 @@
+# accounting
+Algorythm for accounting
