@@ -1,0 +1,22 @@
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    background-color: #004777;
+}
+
+.generate-button {
+    position: absolute;
+    margin-top: 60vh;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: #FDFDFF;
+}
+
+.generate-button:hover {
+    background-color: #80A4ED;
+}
