@@ -8,17 +8,17 @@ function App() {
 
     return (
         <>
-            { activeTab === 'WELCOME' && (
+            {activeTab === 'WELCOME' && (
                 <div className='container'>
-                    <img className='welcome-image' src={welcomeImage} alt='bem-vinde'/>
+                    <img className='welcome-image' src={welcomeImage} alt='bem-vinde' />
                     <button onClick={() => setTab('GENERAL')} className='generate-button'>Gerar dados</button>
                 </div>
             )}
 
-            { activeTab === 'GENERAL' && (
+            {activeTab === 'GENERAL' && (
                 <div className='main-container'>
-                   <div className='navbar-main-div'>
-                        <h1 className='main-title'> Análise dos dados (colocar outro nome dps) </h1>
+                    <h1 className='main-title'> Análise dos dados (colocar outro nome dps) </h1>
+                    <div className='navbar-main-div'>
                         <div className='navbar-filter-div'>
                             <div className='select-div'>
                                 <label className='select-label'>filtrar por op1</label>
@@ -57,7 +57,7 @@ function App() {
                                 </select>
                             </div>
                         </div>
-                   </div>
+                    </div>
                     <button onClick={() => setTab('WELCOME')} className='go-back-button'>Início</button>
                 </div>
             )}
