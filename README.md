@@ -10,7 +10,26 @@ O objetivo central do nosso projeto é utilizar um algoritmo desenvolvido pela n
 A biblioteca Pandas desempenhou um papel crucial ao longo de todo o projeto, sendo amplamente utilizada para a análise e o tratamento dos dados da planilha. Ela permitiu a geração de gráficos e a filtragem de informações, contribuindo significativamente para o sucesso do projeto.
 
 ## Imagens 
-Sem filtro:
+### Sem filtro:
+![WhatsApp Image 2023-09-27 at 4 51 53 PM (1)](https://github.com/mrbsa/accounting/assets/108024639/6750be2d-5340-4807-9a4d-95416f16d156)
+
+### Filtro em 2020: 
+![WhatsApp Image 2023-09-27 at 4 56 20 PM](https://github.com/mrbsa/accounting/assets/108024639/8f4418c4-6369-4cb4-910b-b4113c993a18)
+
+### Despesas empenhadas:
+![WhatsApp Image 2023-09-27 at 4 57 09 PM](https://github.com/mrbsa/accounting/assets/108024639/9dbeadb1-cb02-4e3d-b749-9acb9f127e84)
+
+### Saúde e subfunções:
+![WhatsApp Image 2023-09-27 at 4 57 57 PM](https://github.com/mrbsa/accounting/assets/108024639/005f8630-db64-46da-860b-6ba2ceeb90f1)
+
+### Despesas Liquidadas e Assistencia Social sem as Subfunções:
+![WhatsApp Image 2023-09-27 at 5 01 25 PM](https://github.com/mrbsa/accounting/assets/108024639/3c5a1bb1-3aaa-46f9-a705-5c9bce06ffb8)
+
+### 2021 Despesas, Pagas e Previdencia Social e Subfunções:
+![WhatsApp Image 2023-09-27 at 5 03 17 PM](https://github.com/mrbsa/accounting/assets/108024639/baa78cb4-f14b-40fd-a21c-528f07b916d6)
+
+
+
 
 ## Contribuidores
  - Gabriel Aragão
