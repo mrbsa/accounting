@@ -33,9 +33,9 @@ function findTop5StatesWithHighestExpenses(data) {
 }
 const top5States = findTop5StatesWithHighestExpenses(data);
 
-top5States.forEach(([state, expense]) => {
-    console.log(`${state}: R$ ${expense.toFixed(2)}`);
-});
+// top5States.forEach(([state, expense]) => {
+//     console.log(`${state}: R$ ${expense.toFixed(2)}`);
+// });
 
 
 function App() {
@@ -57,23 +57,22 @@ function App() {
         };
     
         const checkAccount = item => {
+            if (account === 'sub A') {
+                return item.account.includes('08.') || item.account === account
+            }
+
+            if (account === 'sub P') {
+                return item.account.includes('09.') || item.account === account;
+            }
+
+            if (account === 'sub S') {
+                return item.account.includes('10.') || item.account === account;
+            }
+
             return account ? item.account === account : true
         };
     
-        const checkcolumn = item => {
-            if (column === 'sub A') {
-                return item.column.includes('08.') || item.column === column
-            }
-
-            if (column === 'sub P') {
-                return item.column.includes('09.') || item.column === column;
-            }
-
-            if (column === 'sub S') {
-                return item.column.includes('10.') || item.column === column;
-            }
-
-            
+        const checkcolumn = item => { 
             return column ? item.column === column : true
         };
     
@@ -169,11 +168,11 @@ function App() {
                                     <select className='select-element' value={account} onChange={(e) => setAccount(e.target.value)}>
                                         <option key='0' value=''>-</option>
                                         <option value='08 - Assistência Social'>08 - Assistência Social</option>
-                                        {/* <option value='sub A'>Assistência Social + sub</option> */}
+                                        <option value='sub A'>Assistência Social + sub</option>
                                         <option value='09 - Previdência Social'>09 - Previdência Social</option>
-                                        {/* <option value='sub P'>Previdência Social + sub</option> */}
+                                        <option value='sub P'>Previdência Social + sub</option>
                                         <option value='10 - Saúde'>10 - Saúde</option>
-                                        {/* <option value='sub S'>Saúde + sub</option> */}
+                                        <option value='sub S'>Saúde + sub</option>
                                     </select>
                                 </div>
                                 <div className='select-div'>
