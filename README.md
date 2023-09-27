@@ -9,8 +9,8 @@ O objetivo central do nosso projeto é utilizar um algoritmo desenvolvido pela n
 ## Bibliotecas
 A biblioteca Pandas desempenhou um papel crucial ao longo de todo o projeto, sendo amplamente utilizada para a análise e o tratamento dos dados da planilha. Ela permitiu a geração de gráficos e a filtragem de informações, contribuindo significativamente para o sucesso do projeto.
 
-## Como utilizar
- - ...
+## Imagens 
+Sem filtro:
 
 ## Contribuidores
  - Gabriel Aragão
